@@ -58,6 +58,7 @@ int main () {
 
    int option;
    int payment;
+   double balance;
    const float COKE = 1.5;
    const float SPRITE = 1.0;
    const float SEVEN_UP = 0.5;
@@ -78,30 +79,36 @@ int main () {
      cin >> payment;
     }
 
-
-   switch (option) {
-       case 1: 
-         printf("Enjoy the Coke \n\n");
-         printf("Your balance is : $%.2f \n\n", (payment - COKE));
-        break;
-       case 2:
-         printf("Enjoy the Sprite \n\n");
-         printf( "Your balance is : $%.2f \n\n", (payment - SPRITE));
-       break;
-       case 3: 
-         printf("Enjoy the 7UP \n\n");
-         printf("Your balance is : $%.2f \n\n", (payment - SEVEN_UP));
-        break;
-       case 4:
-         printf( "Enjoy the Water \n\n " );
-         printf( "Your balance is : $%.2f \n\n", (payment - WATER));
-       case 5:
-         printf("Thanks!! \n\n");
-       break;
-       default:
-         printf("Invalid option << balance \n\n");
+  if(payment > 0.5) {  
+     switch (option) {
+         case 1: 
+           balance = payment - COKE;
+           printf("Enjoy the Coke \n\n");
+           printf("Your balance is : $%.2f \n\n", balance);
+         break;
+         case 2:
+           balance = payment - SPRITE;
+           printf("Enjoy the Sprite \n\n");
+           printf( "Your balance is : $%.2f \n\n", (payment - SPRITE));
+         break;
+         case 3: 
+           balance = payment - SEVEN_UP;
+           printf("Enjoy the 7UP \n\n");
+           printf("Your balance is : $%.2f \n\n", (payment - SEVEN_UP));
+         break;
+         case 4:
+           balance = payment - WATER;
+           printf( "Enjoy the Water \n\n " );
+           printf( "Your balance is : $%.2f \n\n", (payment - WATER));
+         case 5:
+           printf("Thanks!! \n\n");
+         break;
+         default:
+           printf("Invalid option << balance \n\n");
+     }
+   } else {
+      printf("Too poor !!!!\n\n");
    }
-         
 
     system("pause");
     return 0;

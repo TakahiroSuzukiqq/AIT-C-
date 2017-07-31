@@ -46,7 +46,7 @@ int main() {
 
     }
 
-    cout << "The average value is :" << result/counter;
+    cout << "The average value is :" << result/counter << endl << endl;
     
     system("pause");
     return 0;
