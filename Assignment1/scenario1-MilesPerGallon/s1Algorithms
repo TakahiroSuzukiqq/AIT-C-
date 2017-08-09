@@ -1,0 +1,16 @@
+Scenario 1: Miles per Gallon
+1. Write a program that will read in the "number of litres" of petrol consumed by the users car.
+2. Writeb a program that will read in the "number of miles" traveled by the car. 
+3. The program should then output the number of "miles per gallon" the car delivered.
+4. You must show the outputs as given in the example.
+5. You must show the numbers in "fixed point left justified" and in three decimal places as in the example
+
+
+Algorithm
+Step 1. Get a user input about variable litres and variable miles.
+Step 2. Calculation.
+   Step 2-1. Calculate traveled miles by multiplying litres and miles.
+   Step 2-2. Calculate variable galon by multiplying constant galonPerLitre and variable litres.
+   Step 2-3. Calculate variable amilesPergalon by deviding variable galon and variable miles.
+Step 3. Display output.
+END

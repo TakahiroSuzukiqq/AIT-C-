@@ -1,0 +1,25 @@
+/*
+Object List
+   Variable     Type
+   mark          double
+   grade         char
+
+Algorithm 
+Step 1. Get the mark from the user
+Step 2. Check to see if mark is something something 
+   Step 2.1 if mark < 0 AND mark >100
+   Step 2.2. output "error" + mark
+Step 3. Calculate grade
+   Step 3.1 if (mark > 0 AND mark < 60) grade = 'F'
+   Step 3.2 else if (mark >= 60 AND mark < 70) = 'C'
+   Step 3.3 else if (mark >70 AND < 80) = 'B'
+
+...
+
+   Step 3.45.1 else grade = Z 
+   Step 3.45.2 output "undefined mark please try again"
+   Step 3.46 output "a nice message " + grade 
+   Step 3.47.1 if (the mark is a perfect score)
+   Step 3.47.2 output "you are amazing, what!!!"
+END
+*/

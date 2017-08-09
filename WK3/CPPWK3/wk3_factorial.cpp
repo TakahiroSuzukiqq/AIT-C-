@@ -9,7 +9,7 @@
 
 using namespace std; 
 
-void main()
+int main()
 {
   string firstName; 
   cout << "Welcome to AIT"; 

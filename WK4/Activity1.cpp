@@ -43,7 +43,7 @@ int main() {
 
 // using namespace std;
 
-// int main() {
+// void main() {
 //   int n;
 //   char char1, char2;
 

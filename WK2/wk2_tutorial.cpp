@@ -1,7 +1,7 @@
 // rememb-o-matic
 #include <iostream>
 using namespace std;
-int main ()
+void main ()
 {
  int i,n;
  int * p;

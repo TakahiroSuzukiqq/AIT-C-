@@ -74,7 +74,7 @@ int main () {
    printf("Enter your option Number \n\n\n");
    cin >> option;
 
-   if(option > 0 && option < 5) {
+   if(option > 0 && option <= 5) {
      cout << "Enter your payment in $ :";
      cin >> payment;
     }

@@ -1,0 +1,32 @@
+Scenario 3: Order number
+1. Write a program that prompts the user to input 3 integer values
+2. And print these values in 
+ 2-1. Ascending order.
+ 2-2. Descending order.
+
+Algorithm
+Step 1. Get 3 numbers as variable a, b & c from user input.
+Step 2. Use if statement to make patterns.
+   Step 2-1. Ascending order.
+      Step 2-1-1. if a is greater than b & c
+         Step 2-1-1-1. And if b is greater than c, then display order as a > b > c.
+         Step 2-1-1-2. And if c is greater than b, then display order as a > c > b.
+      Step 2-1-2. if b is greater than a & c
+         Step 2-1-2-1. And if a is greater than c, then display order as b > a > c.
+         Step 2-1-2-2. And if c is greater than a, then display order as b > c > a.
+      Step 2-1-3. if c is greater than a & b
+         Step 2-1-1-1. And if a is greater than b, then display order as c > a > b.
+         Step 2-1-1-2. And if b is greater than a, then display order as c > b > a.
+   Step 2-2. Descending order.
+      Step 2-2-1. if a is greater than b & c
+         Step 2-2-1-1. And if b is greater than c, then display order as a < b < c.
+         Step 2-2-1-2. And if c is greater than b, then display order as a < c < b.
+      Step 2-2-2. if b is greater than a & c
+         Step 2-2-2-1. And if a is greater than c, then display order as b < a < c.
+         Step 2-2-2-2. And if c is greater than a, then display order as b < c < a.
+      Step 2-2-3. if c is greater than a & b
+         Step 2-2-3-1. And if a is greater than b, then display order as c < a < b.
+         Step 2-2-3-2. And if b is greater than a, then display order as c < b < a.
+   Step 2-3. In else statement, if input number are the same, display "Try again, don't enter a same number".
+END      
+* As a future action, I have to manage the case which each of input number has a lot of decimals points,

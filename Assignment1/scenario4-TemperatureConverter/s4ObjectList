@@ -1,0 +1,7 @@
+Object List
+   Variable           Type
+   lowerLimit         float
+   higherLimit        float
+   stepSize           float
+   temperature        float
+   fahrenheit         float

@@ -1,0 +1,17 @@
+Scenario 2: Grading.
+1. Write a program that allows the user to enter the mark scored within a range of 0 - 100. 
+2. If the score is 100 then notify the user that they received a perfect score. 
+3. The program will notify the user of their letter grade as: 0-59 F, 60-69 D, 70-79 C, 80-89 B, 90-100 A.
+
+Algorithm
+Step 1. Get a score from user input as  variable score.
+Step 2. Use if statement to grade user's score.
+   Step 2-1. If user score is between 0 to 59, then F.
+   Step 2-2. If user score is between 60 to 69, then D.
+   Step 2-3. If user score is between 70 to 79, then D.
+   Step 2-4. If user score is between 70 to 79, then C.
+   Step 2-5. If user score is between 80 to 89, then B.
+   Step 2-6. If user score is between 90 to 99, then A.
+   Step 2-7. If user score is 100 then A, and "perfect score".
+   Step 2-7. If user score is out of the ccope of 0 - 100, then "error".
+END

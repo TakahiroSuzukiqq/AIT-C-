@@ -1,0 +1,10 @@
+Object List
+   Variable           Type
+   choice             int
+   payment            int
+   change             float
+   COCACOLA           const float 
+   SPRITE             const float   
+   FANTA              const float  
+   LEMONADE           const float 
+   WATER              const float 
