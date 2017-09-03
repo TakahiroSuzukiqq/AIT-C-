@@ -13,6 +13,10 @@
         "stdexcept": "cpp",
         "typeinfo": "cpp",
         "iosfwd": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "bitset": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "utility": "cpp"
     }
 }

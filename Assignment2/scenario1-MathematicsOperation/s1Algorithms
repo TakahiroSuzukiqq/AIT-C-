@@ -1,0 +1,14 @@
+Algorithm
+START
+Step 1. Display menue and get the user choice from #1 - 5.
+Step 2. Get 2 number from the user input. 
+Step 3. Use if(switch) conditions with user chose number.
+   Step 3-1. If user chose #1 add 2 numbers.
+   Step 3-2. If user chose #2 subtract 2 numbers.
+   Step 3-3. If user chose #3 multiply 2 numbers.
+   Step 3-4. If user chose #4 divide 2 numbers.
+   Step 3-5. If user chose #5 modulus 2 numbers. 
+Step 4. Ask user whether he or she wants to continue or not by choosing yes or no.
+        Nest with Step 3 so if conditions are inside continue loop.
+   Step 4-1. If user will choose yes then go back to Step 1.
+END
