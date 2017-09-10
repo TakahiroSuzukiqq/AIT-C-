@@ -15,7 +15,8 @@
 //     return 0;
 // }
 //===========================================================================================
-# include <iostream>
+#include<iostream>
+#include<cmath>
 
 using namespace std;
 
@@ -29,11 +30,11 @@ int main (){
     int a = 4444;  //this a is not the same as a in function add and great
     int y = 2, z = 5;
   //int x = 2 + 5;//int x is 7
-    int x = add(y, z)
-    cout < "The result is: "<< endl << endl;
+    int x = add(y, z);
+    cout << "The result is: "<< endl << endl;
 
-    int add(2, 5);
-    cout < "The result is: "<< endl << endl;
+    // int add(2, 5);
+    // cout << "The result is: "<< endl << endl;
 
     system("pause");
     return 0;

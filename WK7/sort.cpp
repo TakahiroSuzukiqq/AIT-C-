@@ -41,6 +41,8 @@
 
 using namespace std;
 
+void bubbleSort(void);
+
 void bubbleSort(int arr[], int size) {   //size
     
     bool sorted = false;
