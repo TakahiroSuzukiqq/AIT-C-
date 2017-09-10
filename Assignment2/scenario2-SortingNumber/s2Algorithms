@@ -1,0 +1,11 @@
+Algorithm
+START
+Step 1. Create an array with 10 int value.
+Step 2. Create a function to compare each value inside the array one by one using a loop a function to display the value inside the array one by one,
+        start from value 0 to value 9.
+Step 3. If the number inside the array is smaller than the previous value swap these numbers by using temporary valuable.
+        Using boolean False as a default.
+Step 4. Once finish comparing every numbers inside the array, display the result using another loop which 
+        also has a function to display the value inside the array one by one.
+Step 5. Create same functions for an array with long value and an array with double value, iterate Step1 to 4.   
+END  
