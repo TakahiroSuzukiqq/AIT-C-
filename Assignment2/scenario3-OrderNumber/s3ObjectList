@@ -1,4 +1,13 @@
 Object List
    Variable       Type
-   arrInt         int
-   
+   multiples      int
+   n              int
+   x              int
+   i              int
+   multiples      float
+   multiples      double
+   n              int
+   x              int
+   y              float
+   z              double
+   i              int

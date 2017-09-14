@@ -1,4 +1,9 @@
 Algorithm
 START
-Step 1.
+Step 1. Get the user input about the integer, float, dluble, and how many times to iterate.
+Step 2. Create 3 multiple functions using for loop.
+  Step 2-1. Inside the loop, iterate the number of times which get drom user input.
+       2-2. Using i to count up till i reachs user input number.
+       2-3. Each time i counts up, i is multiplied by the integer, float or dluble.
+Step 3. Display the result.
 END
