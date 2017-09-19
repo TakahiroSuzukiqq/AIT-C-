@@ -1,0 +1,10 @@
+Algorithm
+START
+Step 1. Get User input and store them into string.
+Step 2. Check if user input contains vowels.
+     2-1. Using for loop and search vowels from the first letter by measuring STRING NAME length with i.
+          If user input contains vowels counter plus 1.
+Step 3. Using tolower, toupper and isdegit functions to check whether user input string has lower case and upper case letters, or digit number.
+        By measuring STRING NAME length with i, if user input has above one in the string, count one by one.
+Step 4. Display each counter's number.
+END

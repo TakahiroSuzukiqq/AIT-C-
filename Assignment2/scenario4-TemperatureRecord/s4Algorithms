@@ -1,5 +1,12 @@
 Algorithm
 START
-Step 1. 
-
+Step 1. Create two empty arrays.
+Step 2-1. Get user input about minimum and maximum temperature of each day from Monday to Sunday.
+     2-2. Store user input to the arrays.
+Step 3. Create bubble sort function to arrange the to arrays.
+Step 4-1. Create the total value to store the total number inside two arrays.
+     2-1. Create the devision function to get the average temperature of the week.
+Step 5-1. Display the first value which is the most hottest temperature in the minimum temperature array.
+     5-2. Display the last value which is the most coldest temperaturethe in the minimum temperature array.
+Step 5-3. Displaay the average temperature of the week.
 END

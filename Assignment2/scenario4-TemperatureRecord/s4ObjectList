@@ -1,2 +1,11 @@
 Object List
    Variable       Type
+   tempH[]        float
+   tempL[]        float
+   tempTtl        float
+   i              int
+   sizeH          int
+   sortedH        bool
+   temp           int
+   sortedL        bool
+   

@@ -1,0 +1,8 @@
+Object List     
+   Variable       Type
+   anyString      string
+   vCounter       int
+   position       int
+   lCounter       int
+   uCounter       int
+   nCounter       int

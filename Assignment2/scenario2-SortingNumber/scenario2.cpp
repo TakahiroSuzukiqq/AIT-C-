@@ -5,7 +5,6 @@ using namespace std;
 
 
 int main() {
-//===========================INT===============================
     int arrInt[10] = {23, 2, 34, 23, 43, 22, 32, 32, 43, 34};
     int sizeInt = sizeof(arrInt) / sizeof(arrInt[0]);
     bool sortedInt = false;
@@ -23,7 +22,6 @@ int main() {
         }
     }
 
-//===========================LONG===============================  
     long arrLong[10] = {7000, 15, 34, 2373645, 43, 22, 9392929294, 46, 32, 111143};
     int sizeLong = sizeof(arrLong) / sizeof(arrLong[0]);
 
@@ -42,7 +40,6 @@ int main() {
         }
     }
 
-//===========================DOUBLE===============================
     double arrDouble[10] = {23.3847239, 2.3974, 34.183734, 23.0, 43.36381, 22.3, 32.0, 32.1919, 43.938363, 34.38364};
     int sizeDouble = sizeof(arrDouble) / sizeof(arrDouble[0]);
 
@@ -62,7 +59,6 @@ int main() {
     }
     cout << endl;
 
-//===========================OUTPUT===============================
     for(int i = 0; i < 10; i++) {
       if (i == 0) {
           cout << "valListInt = ";
