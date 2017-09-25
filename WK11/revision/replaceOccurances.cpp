@@ -10,9 +10,9 @@ string replaceOccurances(string mainStr, string search, char ch) {
             for (int i = pos; i < pos + search.length(); i++) {//replace characters
             mainStr[i] = ch;
             //pos = pos + search.length();
+            }
             pos += search.length();
             //pos = mainStr.find(search, pos);
-            }
         }
     }
     //return counter;
